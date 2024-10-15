@@ -23,10 +23,9 @@
       "versionCode": 1
     },
     "ios": {
-      "supportsTablet": true, 
+      "supportsTablet": true,
       "buildNumber": "1"
     },
-
     "web": {
       "favicon": "./assets/app.png"
     },
@@ -35,6 +34,9 @@
         "projectId": "45442e06-266b-4b31-a8b7-a7411c317cd0"
       }
     },
-    "owner": "juanmazalazar"
+    "owner": "juanmazalazar",
+    "updates": {
+      "url": "https://u.expo.dev/45442e06-266b-4b31-a8b7-a7411c317cd0"
+    }
   }
 }
