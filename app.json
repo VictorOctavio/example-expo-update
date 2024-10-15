@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Exlogrn",
-    "slug": "Exlogrn",
+    "slug": "example-expo-update",
     "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/app.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/app.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45442e06-266b-4b31-a8b7-a7411c317cd0"
+      }
+    },
+    "owner": "juanmazalazar"
   }
 }
