@@ -2,7 +2,6 @@
   "expo": {
     "name": "Exlogrn",
     "slug": "example-expo-update",
-    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/app.png",
     "userInterfaceStyle": "light",
@@ -11,16 +10,23 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
+    "runtimeVersion": {
+      "policy": "appVersion"
     },
+    "version": "1.0.0",
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/app.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.juanmazalazar.exampleexpoupdate"
+      "package": "com.juanmazalazar.exampleexpoupdate",
+      "versionCode": 1
     },
+    "ios": {
+      "supportsTablet": true, 
+      "buildNumber": "1"
+    },
+
     "web": {
       "favicon": "./assets/app.png"
     },
@@ -32,12 +38,9 @@
     "updates": {
       "enabled": true,
       "checkAutomatically": "ON_LOAD",
-      "fallbackToCacheTimeout": 0,
+      "fallbackToCacheTimeout": 2000,
       "url": "https://u.expo.dev/45442e06-266b-4b31-a8b7-a7411c317cd0"
     },
-    "owner": "juanmazalazar",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    }
+    "owner": "juanmazalazar"
   }
 }
