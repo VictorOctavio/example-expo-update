@@ -35,12 +35,6 @@
         "projectId": "45442e06-266b-4b31-a8b7-a7411c317cd0"
       }
     },
-    "updates": {
-      "enabled": true,
-      "checkAutomatically": "ON_LOAD",
-      "fallbackToCacheTimeout": 2000,
-      "url": "https://u.expo.dev/45442e06-266b-4b31-a8b7-a7411c317cd0"
-    },
     "owner": "juanmazalazar"
   }
 }
