@@ -10,7 +10,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <Background>
       <Logo />
-      <Header>Welcome 💫</Header>
+      <Header>Welcome Paps💫</Header>
       <Paragraph>Congratulations you are logged in.</Paragraph>
       <Button
         mode="outlined"

@@ -18,7 +18,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/app.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.juanmazalazar.exampleexpoupdate"
     },
     "web": {
       "favicon": "./assets/app.png"
@@ -28,6 +29,15 @@
         "projectId": "45442e06-266b-4b31-a8b7-a7411c317cd0"
       }
     },
-    "owner": "juanmazalazar"
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/45442e06-266b-4b31-a8b7-a7411c317cd0"
+    },
+    "owner": "juanmazalazar",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
   }
 }
