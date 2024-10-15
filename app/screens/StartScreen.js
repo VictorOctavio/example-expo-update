@@ -27,10 +27,10 @@ export default function StartScreen({ navigation }) {
   return (
     <Background>
       <Logo />
-      <Header>Welcome to login app ❤️</Header>
+      <Header>Welcome to login app</Header>
       <Paragraph>
         A starter app template for React Native Expo, featuring a ready-to-use
-        login screen ❤️.
+        login screen.
       </Paragraph>
       <Button
         mode="contained"

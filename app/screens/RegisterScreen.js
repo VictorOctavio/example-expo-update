@@ -38,7 +38,7 @@ export default function RegisterScreen({ navigation }) {
     <Background>
       <BackButton goBack={navigation.goBack} />
       <Logo />
-      <Header>Welcome 😦.</Header>
+      <Header>Welcome.</Header>
       <TextInput
         label="Name"
         returnKeyType="next"
